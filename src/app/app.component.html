@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<form>
+    Nome: <input type = "text" name = "nome" #nome><br><br>
+    Cognome: <input type = "text" name = "nome" #cognome><br><br>
+    Indirizzo: <input type = "text" name = "indirizzo" #indirizzo><br><br>
+    Telefono: <input type = "text" name = "telefono" #telefono><br><br>
+    Email: <input type = "text" name = "email" #email><br><br>
+    Data prenotazione: <input type = "date" name = "data" #data><br><br>
+    Ora prenotazione: <input type = "text" name = "ora" #ora><br><br>
+    <button (click)="makeCompactRequest(nome, cognome, indirizzo, telefono, email, data, ora)" class="btn btn-primary">Invia</button>
+</form>
